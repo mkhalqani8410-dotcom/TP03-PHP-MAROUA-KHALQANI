@@ -1,0 +1,26 @@
+[
+    {
+        "nom": "marwa",
+        "note_info": 15,
+        "note_math": 20,
+        "moyenne": 17.5
+    },
+    {
+        "nom": "marwa",
+        "note_info": 15,
+        "note_math": 20,
+        "moyenne": 17.5
+    },
+    {
+        "nom": "sara",
+        "note_info": 16,
+        "note_math": 18,
+        "moyenne": 17
+    },
+    {
+        "nom": "mounir",
+        "note_info": 19,
+        "note_math": 17,
+        "moyenne": 18
+    }
+]

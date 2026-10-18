@@ -1,0 +1,37 @@
+<!--
+Auteur : Maroua KHALQANI
+Objectif : Saisir le nom et les notes de l'apprenant et envoyer les données avec POST.
+Date : 17/10/2026
+-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire POST</title>
+</head>
+<body>
+
+<h1>Saisie des notes</h1>
+
+<form action="traitement.php" method="POST">
+
+    <label>Nom :</label>
+    <input type="text" name="nom" required>
+    <br><br>
+
+    <label>Note informatique :</label>
+    <input type="number" name="note_info" min="0" max="20"
+           step="any" required>
+    <br><br>
+
+    <label>Note mathématiques :</label>
+    <input type="number" name="note_math" min="0" max="20"
+           step="any" required>
+    <br><br>
+
+    <button type="submit">Envoyer</button>
+
+</form>
+
+</body>
+</html>
